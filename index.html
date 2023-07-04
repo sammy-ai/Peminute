@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../dist/output.css" rel="stylesheet">
+</head>
+<body class="flex flex-col p-2 bg-gradient-to-r from-black to-indigo-700">
+  <!--NAVBAR-->
+  <div class="flex w-screen h-32">
+    <img src="../img/peminte nobg.png" alt="" class="w-16 h-16 border rounded-full md:w-20 md:h-20">
+  </div>
+
+  <div class="grid w-screen h-screen grid-cols-1 gap-4 md:grid-cols-2">
+    <div class="flex flex-col font-bold text-white bg-no-repeat" style="background-image: url(../img/Persons_hand_holding_mobile_phone-removebg-preview.png)">
+      <span class="font-sans text-6xl text-teal-400">Putting content creators first.</span>
+      Earn $0.002 for every single minute your video is watched. The first 50
+      creators will enjoy getting paid $0.004 per minute forever.
+    </div>
+    <div class="flex flex-col text-xl text-white">
+      <span class="w-5/6 text-3xl font-semibold text-indigo-300">Join our signup queue to get early access and fully monetize your videos</span>
+      <form action="" method="post" id="dataform" name="dataform" class="flex flex-col">
+        <div class="grid flex-col w-5/6 my-1 border-0 md:w-2/3 md:grid-cols-2">
+          <label for="Full Names" class="">Full Names</label>
+          <input type="text" name="Full Names" placeholder="full names" id="Full Names" class="p-1 text-black rounded">
+        </div>
+        <div class="grid flex-col w-5/6 my-1 md:w-2/3 md:grid-cols-2">
+          <label for="Email" class="">Email</label>
+          <input type="email" name="Email" id="Email" placeholder="email" class="p-1 text-black rounded">
+        </div>
+        <div class="grid flex-col w-5/6 my-1 md:w-2/3 md:grid-cols-2">
+          <label for="Youtube Link" class="">Youtube Link</label>
+          <input type="text" name="Youtube Link" id="Youtube Link" placeholder="youtube link" class="p-1 text-black rounded">
+        </div>
+        <div class="grid flex-col w-5/6 my-1 md:w-2/3 md:grid-cols-2">
+          <label for="IG/Tik-Tok Link" class="">IG/Tik-Tok Link</label>
+          <input type="text" name="IG/Tik-Tok Link" id="IG/Tik-Tok Link" placeholder="Insta/Tik-Tok Link" class="p-1 text-black rounded">
+        </div>
+        <div class="flex justify-center w-5/6 my-1">
+          <input type="submit" value="Submit" id="submit" class="w-24 h-12 bg-blue-600 rounded cursor-pointer">
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="../dist/script.js"></script>
+</body>
+</html>
