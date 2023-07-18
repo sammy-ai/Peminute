@@ -1,11 +1,11 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwG0M7qbCgt9xkjsL_xPArRpSu6z3yo_Gg6Gh9VVntYSD8IxR9ZuDYT5wjCrxvwpLeL/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyGEEv7ZEAfHVDuexx8itDjgkaVXJoPnPMQOzf-Mc9aI2z1hhf1mtYLbYRgoHX8FGHp/exec';
 const form = document.forms['dataform'];
 
 form.addEventListener('submit', e => {
     e.preventDefault();
     fetch(scriptURL, {method: 'POST', body: new FormData(form)})
         .then(() => {
-            alert('Data successfully added!');
+            alert('Thank you for your submission');
             form.reset();
         })
         .catch(() => {
