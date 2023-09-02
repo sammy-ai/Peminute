@@ -45,7 +45,7 @@ function validation()
 function shareOnWhatsApp() {
   // Replace 'YOUR_MESSAGE' with the message you want to accompany the link.
   // For example, "Check out this cool website!"
-  const message = 'Join me and other content creators on Peminute. Monetize your digital content 😀';
+  const message = 'YOUR_MESSAGE';
   const url = encodeURIComponent(window.location.href);
   const whatsappUrl = `https://api.whatsapp.com/send?text=${message} ${url}`;
 
@@ -58,7 +58,7 @@ function shareOnWhatsApp() {
 function shareOnTwitter() {
   // Replace 'YOUR_MESSAGE' with the message you want to accompany the link.
   // For example, "Check out this cool website!"
-  const message = 'Join me and other content creators on Peminute. Monetize your digital content 😀';
+  const message = 'YOUR_MESSAGE';
   const url = encodeURIComponent(window.location.href);
   const twitterUrl = `https://twitter.com/intent/tweet?text=${message} ${url}`;
 
