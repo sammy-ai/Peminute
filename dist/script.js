@@ -47,7 +47,7 @@ function shareOnWhatsApp() {
   // For example, "Check out this cool website!"
   const message = 'Join me and other content creators on Peminute. Monetize your digital content 😀';
   const url = encodeURIComponent(window.location.href);
-  const whatsappUrl = `https://api.whatsapp.com/send?text=${message}\n ${url}`;
+  const whatsappUrl = `https://api.whatsapp.com/send?text=${message} ${url}`;
 
   // Open WhatsApp in a new tab with the share link
   window.open(whatsappUrl, '_blank');
@@ -60,7 +60,7 @@ function shareOnTwitter() {
   // For example, "Check out this cool website!"
   const message = 'Join me and other content creators on Peminute. Monetize your digital content 😀';
   const url = encodeURIComponent(window.location.href);
-  const twitterUrl = `https://twitter.com/intent/tweet?text=${message}\n ${url}`;
+  const twitterUrl = `https://twitter.com/intent/tweet?text=${message} ${url}`;
 
   // Open Twitter in a new tab with the tweet pre-filled
   window.open(twitterUrl, '_blank');
